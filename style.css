@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Metrophobic-Regular;
+    src: url(fonts/Metrophobic-Regular.ttf);
+}
+@font-face {
+    font-family: Mitr-Bold;
+    src: url(fonts/Mitr-Bold.ttf);
+}
+@font-face {
+    font-family: Mitr-Regular;
+    src: url(fonts/Mitr-Regular.ttf);
+}
+
+
+body{
+    background-image:url(stacked-waves-haikei.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 80px;
+    margin-left: 340px;
+}
+
+.container{
+    padding:2.5em;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius:12px;
+}
+    
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    gap:0.5em;
+    position: relative;
+    bottom: 25px;
+}
+.form-head {
+    display: flex;
+    flex-direction: column;
+    font-family: Metrophobic-Regular;
+    
+}
+.form-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: em;
+
+}
+
+.container2{
+    padding:2.5em;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #b6d7f052;
+    border-radius: 12px;
+    position: relative;
+    left: 40px;
+    font-family: Mitr-Regular;
+    color:#487a96;
+}
+.form-head h6{
+    position: relative;
+    bottom:35px;
+    font-size: 0.8em;
+}
+.form-head h5{
+    position: relative;
+    top:30px;
+    font-size: 0.7em;
+}
+.form-head h1{
+    font-size: 1.7em;
+}
+.input-1{
+    height:16px;
+    width: 15.5em;
+    padding: 0.5em;
+    border-radius: 8px;
+    border:none;
+    border: 2px solid lightgray;
+    outline:none;
+}
+#form-submit{
+    height:36px;
+    padding:0.5em;
+    border:none;
+    background-color: #487a96;
+    border-radius: 8px;
+    font-family: Metrophobic-Regular;
+    font-size: 0.9em;
+    color:white;
+    font-weight:600;
+}
+.form-input label{
+    font-family: Metrophobic-Regular;
+    font-size: 0.9em;
+}
+
+#logoblan-1{
+    width:2.5em ;
+    height:2.5em ;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
